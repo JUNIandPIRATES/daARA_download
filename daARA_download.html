@@ -1,0 +1,63 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>다아라 다운로드</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+
+</head>
+<style>
+    html,body{
+  height:100%;
+}
+body{
+  text-align:center;
+}
+
+button{
+  background:#343a38;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#343a38;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #707574;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+</style>
+<body>
+    
+    <img src="img/mainimg.png" style="display : block; margin : auto;">
+    <button>DOWNLOAD</button>
+    <div style="height : 100px;"></div>
+    
+</body>
+
+</html>
